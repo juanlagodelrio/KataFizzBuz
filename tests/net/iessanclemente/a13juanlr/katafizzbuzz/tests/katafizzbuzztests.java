@@ -31,5 +31,10 @@ private metodos met;
 		String result = met.comprobacionNumeros(15);
 		assertEquals("FizzBuzz", result);
 	}
+	@Test
+	public void contentCinco(){
+		String result = met.comprobacionNumeros(52);
+		assertEquals("Buzz", result);
+	}
 
 }
