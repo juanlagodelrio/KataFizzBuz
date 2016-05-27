@@ -20,5 +20,11 @@ private metodos met;
 		String result = met.comprobacionNumeros(3);
 		assertEquals("Fizz", result);
 	}
+	
+	@Test
+	public void multiCinco(){
+		String result = met.comprobacionNumeros(5);
+		assertEquals("Buzz", result);
+	}
 
 }
