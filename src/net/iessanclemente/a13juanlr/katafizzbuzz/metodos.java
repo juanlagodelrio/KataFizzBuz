@@ -7,7 +7,7 @@ public class metodos {
 			result = "FizzBuzz";
 		}else if(num%5 == 0){
 			result = "Buzz";
-		}else if(num%3 == 0){
+		}else if(num%3 == 0 || (num+"").contains("3")){
 			result = "Fizz";
 		}
 		return result;
